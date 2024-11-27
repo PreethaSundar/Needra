@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa Draw</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <i class="fa-solid fa-hat-santa"></i> Kris Kindle 2024 <i class="fa-solid fa-gift"></i>
+            </h1>
+            <p class="greeting">Hi <span id="name">[Your Name]</span>,</p>
+            <p class="instruction">You are the Secret Santa for:</p>
+        </header>
+        <main>
+            <div class="santa-box">
+                <h2 id="santa-name">[Recipient Name]</h2>
+                <h3>Wishlist:</h3>
+                <ul id="wishlist">
+                    <!-- Items will be dynamically added here -->
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>TEAM WSO ASP - 2024 </p>
+        </footer>
+    </div>
+    
+        <!-- Snowflake Container -->
+        <div id="snowflakes"></div>
+    </body>
+    
+</body>
+</html>
