@@ -35,20 +35,20 @@ header h1 {
     font-weight: bold;
     color: #d84315;
     margin-bottom: 1px;
-    font-family: 'Kristen ITC', sans-serif;
+    font-family: 'Constantia', sans-serif;
 }
 
 header .greeting {
     font-size: 1.3em;
     margin: 10px 0;
     font-weight: 500;
-    font-family: 'Maiandra GD', sans-serif;
+    font-family: 'Constantia', sans-serif;
 }
 
 header .instruction {
     font-size: 1em;
     color: #555;
-    font-family: 'Maiandra GD', sans-serif;
+    font-family: 'Constantia', sans-serif;
 }
 
 /* Santa Box */
@@ -65,7 +65,7 @@ header .instruction {
     font-size: 1.8em;
     color: #a51111;
     margin-bottom: 15px;
-    font-family: 'Maiandra GD', sans-serif;
+    font-family: 'Constantia', sans-serif;
 }
 
 .santa-box h3 {
@@ -90,7 +90,7 @@ header .instruction {
     font-size: 1em;
     text-align: left;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Maiandra GD', sans-serif;
+    font-family: 'Constantia', sans-serif;
 }
 
 /* Footer Styling */
