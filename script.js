@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const wishlist = document.getElementById("wishlist");
     santaData.wishlist.forEach(item => {
         const listItem = document.createElement("li");
-        listItem.textContent = `🎁 ${item}`;
+        listItem.textContent = ` ${item}`;
         wishlist.appendChild(listItem);
     });
 });
