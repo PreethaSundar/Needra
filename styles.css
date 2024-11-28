@@ -96,7 +96,7 @@ header .instruction {
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 1em;
-    text-align: left;
+    text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-family: 'Constantia', sans-serif;
     position: center;
