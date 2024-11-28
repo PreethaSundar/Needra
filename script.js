@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Sample Data
     const santaData = {
         name: "Needra",
-        recipient: "xxxx",
-        wishlist: ["Bluetooth Headphones", "Novel", "Chocolate Hamper"]
+        recipient: "Keshan",
+        wishlist: ["Perfume", "Wallet"]
     };
 
     // Dynamically update content
