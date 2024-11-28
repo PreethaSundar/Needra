@@ -1,25 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Sample Data
-    const santaData = {
-        name: "Needra",
-        recipient: "Keshan",
-        wishlist: ["Perfume", "Wallet"]
-    };
-
-    // Dynamically update content
-    document.getElementById("name").textContent = santaData.name;
-    document.getElementById("santa-name").textContent = santaData.recipient;
-
-    const wishlist = document.getElementById("wishlist");
-    santaData.wishlist.forEach(item => {
-        const listItem = document.createElement("li");
-        listItem.textContent = ` ${item}`;
-        wishlist.appendChild(listItem);
-    });
-});
-
-
-document.addEventListener("DOMContentLoaded", () => {
     // Snowflake generation
     const snowflakeContainer = document.getElementById("snowflakes");
 
