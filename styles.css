@@ -1,119 +1,106 @@
-/* Reset for consistency */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Font and Background */
+/* Body Styling */
 body {
-    background: linear-gradient(to bottom, #ffe1e6, #ffffff);
-    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
-
-@font-face {
-    font-family: 'Kristen ITC';
-    src: url('assets/fonts/KristenITC.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-/* Container */
-.container {
-    max-width: 480px;
-    width: 90%;
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background: url('./PICNEEDRA.png') no-repeat center center/cover; /* Replace with your actual image file */
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
     text-align: center;
-    padding: 25px 20px;
-    border: 1px solid #d84315;
-    overflow: hidden;
-    position: relative;
-}
-
-/* Header Styling */
-header h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: #d84315;
-    margin-bottom: 1px;
-    font-family: 'Constantia', sans-serif;
-}
-
-header .greeting {
-    font-size: 1.3em;
-    margin: 10px 0;
-    font-weight: 500;
-    font-family: 'Constantia', sans-serif;
-}
-
-header .instruction {
-    font-size: 1em;
-    color: #555;
-    font-family: 'Constantia', sans-serif;
-}
-
-/* Santa Box */
-.santa-box {
-    background: #fffbf2;
     padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #d84315;
-    margin: 20px 0;
 }
 
-.santa-box h2 {
-    font-size: 1.8em;
-    color: #a51111;
-    margin-bottom: 15px;
-    font-family: 'Constantia', sans-serif;
+/* Main Container */
+.container {
+    background: rgba(180, 147, 116, 0.479); /* Slight dark overlay for better text readability */
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin-top: 150px;
 }
 
-.santa-box h3 {
-    font-size: 1em;
+/* Messages Styling */
+.holiday-message {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
     margin-bottom: 10px;
-    color: #555;
-    font-family: 'Constantia', sans-serif;
 }
 
-.santa-box ul {
-    list-style: none;
-    padding: 0;
-}
 
-.santa-box ul li {
-    background: #f9fafc;
-    color: #333;
-    padding: 10px;
-    margin: 8px 0;
-    border-radius: 8px;
-    border: 1px solid #ccc;
+
+.main-message {
     font-size: 1em;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    font-family: 'Constantia', sans-serif;
-    position: center;
+    margin-bottom: 15px;
+}
+
+.recipient-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    color: #533a18;
+    margin-bottom: 20px;
+}
+
+/* Wishlist */
+.wishlist h3 {
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-family: 'Dancing Script', cursive;
+    color: #fffcfc;
     
 }
 
-/* Footer Styling */
-footer p {
-    margin-top: 20px;
-    font-size: 1.1em;
-    color: #666;
+
+
+.wishlist h1 {
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
-/* Icon Styling */
-.fa-solid {
-    color: #d84315;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Snowflake Background (Optional) */
 body::before {
